@@ -55,8 +55,33 @@ echo ""
 if [ ! -d "frontend/node_modules" ]; then
     echo "📦 Installing app components (first time only, takes 2-3 minutes)..."
     cd frontend
-    npm install
+    
+    # Configure npm for better compatibility
+    npm config set legacy-peer-deps true 2>/dev/null
+    
+    # Try to install with better error handling
+    if ! npm install; then
+        echo ""
+        echo "⚠️  npm install had issues. Trying with SSL workaround..."
+        npm config set strict-ssl false
+        npm install --legacy-peer-deps
+    fi
+    
     cd ..
+    
+    # Check if installation was successful
+    if [ ! -d "frontend/node_modules" ]; then
+        echo ""
+        echo "❌ Installation failed!"
+        echo "📋 Common fixes:"
+        echo "   1. Run: cd frontend && npm config set strict-ssl false && npm install"
+        echo "   2. Check your internet connection"
+        echo "   3. Try: npm cache clean --force"
+        echo ""
+        echo "📖 See FIX_SSL_ERROR.md for detailed solutions"
+        exit 1
+    fi
+    
     echo "✅ Installation complete!"
     echo ""
 fi
