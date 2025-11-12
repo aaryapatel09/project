@@ -2,6 +2,26 @@
 
 A full-stack web application for creating race tracks, simulating races, and viewing leaderboards.
 
+---
+
+## ⚡ **QUICK START** (Non-Technical Users)
+
+👉 **Read `README_SIMPLE.md` or `HOW_TO_RUN.md` for simple instructions!**
+
+### **One-Click Start:**
+- **Mac:** Right-click `START.sh` → Open With → Terminal
+- **Windows:** Double-click `START.bat`
+- Wait 10-20 seconds → Browser opens automatically at http://localhost:3000 🎉
+
+### **First Time?** 
+Need Python & Node.js installed first:
+- Python: https://www.python.org/downloads/
+- Node.js: https://nodejs.org/
+
+**Developers:** Continue reading below for technical documentation.
+
+---
+
 ## Features
 
 - **Interactive Track Builder**: Advanced SVG-based editor with drag-and-drop functionality

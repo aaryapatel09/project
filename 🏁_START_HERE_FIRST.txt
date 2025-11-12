@@ -1,0 +1,147 @@
+🏁 F1 RACING SIMULATOR - START HERE! 🏁
+
+═══════════════════════════════════════════════════════════════
+
+                    ONE-CLICK START
+
+═══════════════════════════════════════════════════════════════
+
+Mac Users:
+  1. Right-click "START.sh"
+  2. Choose "Open With → Terminal"
+  3. Wait 10-20 seconds
+  4. Browser opens automatically!
+
+Windows Users:
+  1. Double-click "START.bat"
+  2. Wait 15-20 seconds
+  3. Browser opens automatically!
+
+═══════════════════════════════════════════════════════════════
+
+                    TO STOP THE APP
+
+═══════════════════════════════════════════════════════════════
+
+Mac: Double-click "STOP.sh"
+Windows: Double-click "STOP.bat"
+
+═══════════════════════════════════════════════════════════════
+
+                 FIRST TIME? NEED HELP?
+
+═══════════════════════════════════════════════════════════════
+
+Read these guides (in order):
+
+1. README_SIMPLE.md      ← Start here! (super simple)
+2. HOW_TO_RUN.md         ← Detailed guide for non-techies
+3. START_HERE.md         ← Technical guide
+4. FEATURES.md           ← What this app can do
+
+═══════════════════════════════════════════════════════════════
+
+              WHAT THIS APP DOES (Quick Preview)
+
+═══════════════════════════════════════════════════════════════
+
+✨ Design custom F1 race tracks (drag & drop)
+✨ AI generates optimized tracks in 3 seconds
+✨ Simulate realistic F1 races with live charts
+✨ Use real F1 drivers (Hamilton, Verstappen, etc.)
+✨ Watch races with animated visualizations
+✨ Pause, rewind, fast-forward race playback
+
+═══════════════════════════════════════════════════════════════
+
+            FIRST TIME SETUP (If needed)
+
+═══════════════════════════════════════════════════════════════
+
+Need these free programs installed:
+
+1. Python
+   Download: https://www.python.org/downloads/
+   ✅ Check "Add Python to PATH" during install
+
+2. Node.js
+   Download: https://nodejs.org/
+   Click the green "LTS" button
+
+After installing, run START.sh or START.bat again!
+
+═══════════════════════════════════════════════════════════════
+
+                    QUICK START
+
+═══════════════════════════════════════════════════════════════
+
+Step 1: Double-click START.sh (Mac) or START.bat (Windows)
+Step 2: Wait 10-20 seconds
+Step 3: Browser opens to http://localhost:3000
+Step 4: Start racing! 🏎️💨
+
+═══════════════════════════════════════════════════════════════
+
+             WHAT TO TRY FIRST (In the App)
+
+═══════════════════════════════════════════════════════════════
+
+1. AI Track Designer (Easiest & Coolest!)
+   - Look for "🤖 AI Track Designer" button
+   - Click it → Select "Most Overtakes"
+   - Click "Generate" → Watch AI create a track!
+
+2. Manual Track Design
+   - Click "➖ Straight" and "↰ Corner" buttons
+   - Drag elements around
+   - Adjust sliders for length, banking, elevation
+
+3. Simulate a Race
+   - Click "Simulate Race" in menu
+   - Click "Launch Race Wizard"
+   - Follow 4 steps
+   - Click "Start Simulation"
+   - Watch live race with charts!
+
+═══════════════════════════════════════════════════════════════
+
+                  HAVING PROBLEMS?
+
+═══════════════════════════════════════════════════════════════
+
+Problem: Page won't load
+Solution: Wait 2-3 minutes (first time installs components)
+
+Problem: "Python not found" or "Node not found"
+Solution: Install Python and Node.js (see above)
+
+Problem: Already running / Port in use
+Solution: 
+  1. Run STOP.sh (Mac) or STOP.bat (Windows)
+  2. Wait 10 seconds
+  3. Run START.sh or START.bat again
+
+More help: Read HOW_TO_RUN.md
+
+═══════════════════════════════════════════════════════════════
+
+                   YOU'RE READY!
+
+═══════════════════════════════════════════════════════════════
+
+Just double-click START.sh (Mac) or START.bat (Windows)
+
+Then open: http://localhost:3000 in your browser
+
+Have fun racing! 🏁🏎️✨
+
+═══════════════════════════════════════════════════════════════
+
+Questions? Read:
+  - README_SIMPLE.md (super simple guide)
+  - HOW_TO_RUN.md (detailed non-technical guide)
+  - START_HERE.md (technical guide)
+
+═══════════════════════════════════════════════════════════════
+
