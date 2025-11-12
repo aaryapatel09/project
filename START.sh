@@ -6,10 +6,19 @@
 echo "🏁 Starting Racing App..."
 echo ""
 
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Change to the script's directory
+cd "$SCRIPT_DIR"
+
+echo "📁 Running from: $SCRIPT_DIR"
+echo ""
+
 # Check if we're in the right directory
 if [ ! -d "backend" ] || [ ! -d "frontend" ]; then
-    echo "❌ Error: Please run this from the project folder"
-    echo "   Drag this file to Terminal, then press Enter"
+    echo "❌ Error: Cannot find backend and frontend folders"
+    echo "   Make sure this script is in the project root folder"
     exit 1
 fi
 
