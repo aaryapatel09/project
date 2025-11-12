@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      target: development
+    container_name: racing-app-backend-dev
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=development
+      - FLASK_DEBUG=True
+    restart: unless-stopped
+    networks:
+      - racing-network
+
+  frontend:
+    build:
+      context: ./frontend
+      target: development
+    container_name: racing-app-frontend-dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:5000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - racing-network
+
+networks:
+  racing-network:
+    driver: bridge
+
